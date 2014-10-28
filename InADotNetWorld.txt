@@ -1,0 +1,61 @@
+Continuous Delivery in a .NET World
+
+I'll admit to have being off the speaking circuit and such for awhile and the landscape could have changed significantly, but when last I was really paying attention, most, if not all talks about Continuous Delivery focused on the 'cool' stack such as Rails, and Node, etc. Without any data to back up this claim at all, I would hazard a guess that there are however more .NET apps out there, especially behind the corporate firewall than those other stacks. Possibly combined. This means that there is a whole lot of people being ignored by the literature. Or at least the ones not being promoted by a tool vendor... This gap needs to be addressed; companies live and die based on these internal applications and there is no reason why they should have crappy process around them just because they are internal.
+
+I've been working in a .NET shop for the last 19 months and we're agonizingly close to having Continuous Delivery into production... but still not quite there yet. Frustrating ... but great fodder for a talk about actually doing this in an existing application ['legacy'] context.
+
+Not surprisingly, the high level bullets are pretty much the same as with other stacks, but there of course variations of the themes that are at play in some cases.
+
+Have a goal
+-----------
+Saying 'we want to do Continuous Delivery' is not an achievable business goal. You need to be able to articulate what success looks like. Previously, success as looked like 'do an update when the CEO is giving an investor pitch'. What is yours?
+
+Get 'trunk' deliverable
+-----------------------
+Could you drop 'trunk' [or whatever your version control setup calls it] into production at a moment's notice? Likely not. While it seems easy, I think this is actually the hardest part about everything? Why? Simple ... it takes discipline. And that is hard. Really hard. Especially when the pressure ramps up as people fall back to their training in those situations and if you aren't training to be disciplined...
+
+So what does disciplined mean to me, right now...
+- feature flags (existence and removal of)
+- externalized configuration
+- non assumption of installation location
+- stop branching!!
+
+Figure out your database
+------------------------
+This, I think, is actually the hardest part of a modern application. And is really kinda related to the previous point. You need to be able to deploy your application with, and without, database updates going out. That means...
+- your tooling needs to support that
+- your build chains needs to support that
+- your application needs to support that (forwards and backwards compatible)
+- your process needs to support that
+
+This is not simple. Personally, I love the 'migration' approach. Unfortunately... our DBA didn't.
+
+Convention over Configuration FTW
+---------------------------------
+I'm quite convinced of two things; this is why RoR and friends 'won' and why most talks deal with them rather than .NET. To really win at doing Continuous Delivery [or at least without going insane], you need to standardize your projects. The solution file goes here. Images go here. CSS goes here. Yes, the 'default' project layout does have some of that stuff already figured out, but it is waaaaay too easy to go of script in the name of 'configurability'. Stop that! Every single one of our .NET builds is slightly different because of that at 360, which means that we have to spend time when wiring them up and dealing with their snowflake-ness. I should have been able to 'just' apply a [TeamCity] template to the job and give it some variables...
+
+Make things small [and modular]
+-------------------------------
+This is something that has started to affect us more and more. And something that doesn't be default in the RoR community with their prevalence of gems. If something has utility, and is going to be across multiple projects, make it a Nuget package. The first candidate for this could be your logging infrastructure. Then your notifications infrastructure. I have seen so much duplicate code...
+
+Not all flows are created equal
+-------------------------------
+This is a recent realization, though having said that, is a pretty obvious one as well. Not all projects, not all teams, not all applications have the same process for achieving whatever your Continuous Delivery goal is. Build your chains accordingly.
+
+Automate what should be automated
+---------------------------------
+I get accused of splitting hairs for this one, but Continuous Delivery is not about 'push a button, magic, production!'. It is all about automating what should be automated, and doing by hand what should be done by hand. But! Also being able to short circuit gates when necessary.
+
+It is also about automating the right things with the right tools. Are they meant for .NET or was it an afterthought? Is it a flash in the pan or is it going to be around? Does its project assumptions align with yours? 
+
+Infrastructure matters
+----------------------
+For Continuous Delivery to really work, and this is why its often mentioned in the same breath as DevOps (we'll ignore that who problem of 'if you have devops you aren't doing devops'...), the management of your infrastructure and environments needs to be fully automated as well. This is very much in the bucket of 'what should be automated'. Thankfully, the tooling has caught up to Windows so you should be working on this right from the start. Likely in tandem with getting trunk deliverable.
+
+Powershell
+----------
+But even still, there are going to have to be things that you need to drop down to the shell and do. We made a leap forward towards our goal when we let Octopus start to control IIS. But they don't expose enough hooks for the particular needs of our application so we have to use the IIS cmdlets to do what we need afterwards. And there is absolutely nothing wrong with this approach.
+
+Its all predicated by people
+----------------------------
+Lastly, and most importantly, you need to have the right people in place. If you don't, then it doesn't matter how well you execute on the above items, you /will/ fail.
