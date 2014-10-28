@@ -7,44 +7,72 @@ For about a year and a half I had to the title of 'Delivery Manager' which means
 
 Tip: Don't put yourself in a box
 
-Since Delivery Manager is a made up title, it is useful to describe it in terms and titles people are used to seeing; Product Owner, Production Gatekeeper and Process Guardian are the three umbrella ones I most associated with. But even those could be sub-divided. And possibly sub-sub-divided. Its also important to recognize that the percentages of these roles are ever in flux. And just to keep things interesting, can sometimes be in conflict with each other.
+Before we landed on this title other ones we considered were 'Doer of Stuff', 'Chaos Monkey' (blantantly stolen from Netflix), and 'Minister Without Portfolio.' But we eventually went with the more business palatable of 'Delivery Manager'. Since Delivery Manager is a made up title, it is useful to describe it in terms and titles people are used to seeing; Product Owner, Production Gatekeeper and Process Guardian are the three umbrella ones I most associated with. But even those could be sub-divided. And possibly sub-sub-divided. Its also important to recognize that the percentages of these roles are ever in flux. And just to keep things interesting, can sometimes be in conflict with each other.
+
+Because of the mix of problems Delivery Managers will have to, erm, manage there is a certain skillset required to be effective at it. Or perhaps not a specific one, but a breadth of one. Testing, Development, Operations, Marketing, Systems, Accounting, etc.. And I would suggest that you have done a stint consulting as well. There is nothing like it in terms of being a crucible for problem identification and solving. That doesn't mean of course that you have to be a perfect mix of all these things. It is inevitable that you will be more specialized in one over the other, and I would be suspicious of anyone who said they weren't. I for instance come up through the testing ranks. Specifically the 'context' ranks. That, for me is my secret sauce.
 
 And yes, there is a tonne of irony around the idea that I spent a decade saying 'I am not a gatekeeper! I am a provider of information!' to moving precisely into the gatekeeper role. But in that irony I learned a lot. Not just about being /a/ Delivery Manager, but about how /I/ am a Delivery Manager.
 
-Economics is a Thing
---------------------
-While everything is important in one degree or another, this is perhaps the one thing I leaned on every single day. When faced with a request, the default answer is always No. Well, it is more 'No* (* but help me to say Yes)'. And don't be subtle or selective about the application of this rule. At 360 there is an entire department I dealt with on a daily basis and they could tell you my default answer is going to be No to any request. But that doesn't stop them from asking since they know about the asterisk. What it does is force them to think about their request ahead of time beyond simplistic 'because' terms.
+No*
+---
+While everything is important in one degree or another, this is perhaps the one thing I leaned on every single day. When faced with a request, the default answer is always No. Well, it is more 'No* (* but help me to say Yes)'. And don't be subtle or selective about the application of this rule. At 360 there is an entire department I dealt with on a daily basis and they could tell you my default answer is going to be 'No' to any request. But that doesn't stop them from asking since they know about the asterisk. What it does is force them to think about their request ahead of time beyond simplistic 'because' terms.
 
-This is not a new idea that I 'discovered'. I blatantly stole it from <find reference> who was at one point the Product Owner for Firefox <double check>. It all boils down to an economics problem around opportunity cost. If you say Yes to everything then the queues will over flow and nothing will get done. But if you say No to everything and selectively grant Yeses then there is order [rather than chaos] in the pipes.
+This is not a new idea that I 'discovered'. I blatantly stole it from someone who was at one point the Product Owner for Firefox (I think... I can't find the article now, if you find it please let me know). It all boils down to an economics problem around opportunity cost. If you say Yes to everything then the queues will over flow and nothing will get done. But if you say No to everything and selectively grant Yeses then there is order [rather than chaos] in the pipes.
 
 Tip: Learn about economics; specifically Opportunity Cost (but Sunk Costs are also useful to understand when involved in No* discussions)
 
-Mature organizations understand this at their core.
+Tip: Unless you really understand the problem you are being asked to solve, you cannot say yes
 
-Servant Leadership
-------------------
-Being the person who always says No won't always make you friends. At first at any rate. You will become everyone's enemy ... and everyone's friend.  Welcome to the balancing act. I would argue that if you are everyone's friend all the time then you are not doing your job properly. Part of the animosity can be dealt with though explaining the asterisk, but also by communicating who 'your' client is. Remember the hats that are being warn have words like 'Owner', 'Guardian' and 'Gatekeeper'. Your client in this role may not being whom it is people think it is. In fact, it almost assuredly isn't. Your is the application and the [delivery] pipeline. This will cause friction; and depending on how your company is structured it could be a non trivial amount. Yes, the Delivery Pipeline is a product; treat it as such.
+Mature organizations understand this at their core. It might be you that levels them up to this understanding though.
 
-Do you know what business you are in? Is that the business the business thinks it is in? It's really hard to win that battle.
+Frenemies
+---------
+Being the person who always says No won't always make you friends. At first at any rate. You will become everyone's enemy ... and everyone's friend.  Welcome to the balancing act. I would argue that if you are everyone's friend all the time then you are not doing your job properly. Part of the animosity can be dealt with though explaining the asterisk, but also by communicating who 'your' client is. Remember the hats that are being warn have words like 'Owner', 'Guardian' and 'Gatekeeper'. Your client in this role may not being whom it is people think it is. In fact, it almost assuredly isn't. Yours is the application and the [delivery] pipeline.
 
-The other thing to remember is that as a 'people' manager your primary goal is to protect everyone under you. Physically, psychologically and work-ly. You need to be able to do their job but also to let /them/ do it. Just because you /could/ be the hero doesn't mean that it is healthy for you or them. Like you would a child, let them work through it and be ready to catch them if they start to fall. [The existence of that metaphor does not mean of course that you should treat them like kids though...] Don't hold them to higher standards than you hold yourself to. But also don't inflict yourself on them as well. I'm a workaholic (thanks Dad!); its unfair to put than onto others. I also don't believe in work-life balance (especially in startups) favouring harmony instead -- but what is harmonious for me is likely not the same for someone else.
+Tip: The Delivery Pipeline is a product
+
+This will cause friction; and depending on how your company is structured it could be a non trivial amount. But as long as you are consistent in your application of No* and are transparent in the reasonings why, in my experience, it is easily overcomable.
+
+Tip: Do you know what business you are in? Is that the business the business thinks it is in? It's really hard to win that battle.
+
+Defense
+-------
+The role of 'Delivery Manager' can sometimes be a lone wolf one, but at other times you will have people working for you [as I did]. It is critical to remember is that as a 'people' manager your primary goal is to protect everyone under you. Physically, psychologically and work-ly. You need to be able to do their job but also to let /them/ do it. Just because you /could/ be the hero doesn't mean that it is healthy for you or them. Like you would a child, let them work through it and be ready to catch them if they start to fall. [The existence of that metaphor does not mean of course that you should treat them like kids though...] Don't hold them to higher standards than you hold yourself to. But also don't inflict yourself on them as well. I'm a workaholic (thanks Dad!); its unfair to put than onto others. I also don't believe in work-life balance (especially in startups) favouring harmony instead -- but what is harmonious for me is likely not the same for someone else.
 
 In order to do that you need to constantly be running defence for your charges; human and software. Invite yourself to meetings, constantly be vigilant for conversations that will affect them. Which unfortunately means you miss out of plugging in your headphones and listening to music all day.
 
+Tip: Ensure grief from No* comes back to you, not your people
+
+Tip: People, not resources
+
+Tip: Ask the people who work for you if they feel you have their back. If not, you're doing something wrong.
+
 You Will Screw Up
 -----------------
-Here is a truth; I guarantee you will screw up, potentially largely, in this role. You are making decisions that require a crazy amount of information to be assimilated and if it is not perfectly done or you are missing any [maliciously or innocently]. And that's ok. Pick yourself up, and go forward. That is the only way you can go. We no longer have the luxury of going back. Remember, tough calls are your job.
+I tend not to speak in terms of absolutes, but here is a truth; You will screw up, potentially largely, in this role. You are making decisions that require a crazy amount of information to be assimilated quickly and if it is not perfectly done or you are missing any [maliciously or innocently] then you are hooped. And that's ok. Pick yourself up, and go forward. That is the only way you can go. We no longer have the luxury of going back. Remember, tough calls are your job.
 
-<Brian Marick fork in the road example>
+Bending to go forward is not a new thing. I'm sure I heard it a couple times before it really stuck, but I credit Brian Marick's talk at Agile 2008 for that sticking. I can't find a video of it [though didn't try hard] but the text of it can be found http://www.exampler.com/blog/2008/11/14/agile-development-practices-keynote-text.
 
-Be careful though; Impostor Syndrome is a thing. And it sucks. A lot. Get help.
+Tip: Be careful though; screw up too much and Impostor Syndrome can set in. And it sucks. A lot. Get help.
+
+Tip: Make sure your boss is onboard with the 'go forward' approach
+
+Tip: Confidence is infectious, be patient zero
 
 Know and be true to yourself
 ----------------------------
 One of the biggest things I've learned in the last bit is around how /I/ function. Some people find the MBTI as hand-wavy and hokey, but I think its useful not in terms of how I choose to interact with people but in understanding how I am. I'm ENTP. Hilariously so. That's not going to jive well with organizations that are 'typed' differently. That's been a huge insight for me.
 
+Tip: For a lark, take an MBTI test. Its heuristic, but still interesting
+
 Being a geek I also think of things in terms of the classing AD&D alignment scale. I lean towards the Chaotic Good. We have a goal; there are no rules here. Especially 'stupid', 'artificial' ones.
 
 And that has got me into trouble more than once. I don't doubt that it will again in the future.
 
-But I also have a strongly defined set of ethics and philosophy around how things should be done.
+But I also have a strongly defined set of ethics and philosophy around how things should be done. Entrepeneurs don't necessarily make good employees...
+
+Putting a bow on it
+-------------------
+Being a 'Delivery Manager' is great fun. Challenging as heck, but great fun and super rewarding. As someone who cares deeply about quality and the customer experience and has experience backed opinions on how to achieve them I don't see myself going back to a 'Just X' role.
+
+(P.S. I'm now available for hire if your organization needs a Delivery Manager)
